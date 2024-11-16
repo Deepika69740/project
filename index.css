@@ -1,0 +1,254 @@
+.fall>p{
+    padding-top:10px;
+    padding-bottom: 10px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.navbar{
+   
+    position: sticky !important;
+    top:0px !important;
+    background-color: whitesmoke;
+    width: 100%;
+    z-index: 1;
+    height: 50px;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    /* margin-top: 0px; */
+
+}
+.nav_left{
+    margin-top: 20px;
+    /* padding-top: 3px; */
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    /* padding-top: 10px; */
+}
+.nav_right,.nav_center{
+    gap: 20px;
+    display: flex;
+}
+.nav_left1 > a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+.nav_left1>a:hover{
+    text-decoration:  2px black underline;
+}
+.nav_center>input{
+    height: 20px;
+}
+.nav_center>i{
+    padding-top: 3px;
+}
+.cantainer{
+    width: 98vw;
+}
+.cantainer>img{
+    width: 100%;
+}
+.contain{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+}
+.contain>img{
+    width: 10%;
+    padding-top: 18px;
+    padding-right: 20px;
+}
+.contain1{
+    width: 100%;
+    display: flex;
+    padding-top: 30px;
+    /* margin: 0px -30px 0px -10px; */
+    justify-content: space-around;
+}
+.contain1>img{
+    width: 22%;
+}
+.heading{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.heading1{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+.heading1>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: darkgrey;
+    cursor: pointer;
+}
+.heading1>p:active{
+    color: black;
+    text-decoration: 2px black underline;
+}
+.img_container{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    /* justify-content: space-evenly; */
+}
+
+.img_container1>img,.img_container2>img,.img_container3>img,.img_container4>img{
+    width: 100%;
+}
+.img_container1>img:hover{
+    content: url(https://www.fablestreet.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0486%2F0634%2F7416%2Ffiles%2FFSDR1377PRBL_2.jpg%3Fv%3D1730981113&w=1920&q=75);
+}
+.img_container2>img:hover{
+    content: url(https://www.fablestreet.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0486%2F0634%2F7416%2Ffiles%2FFSDR1380MARN_2.jpg%3Fv%3D1730980423&w=1920&q=75);
+}
+.img_container3>img:hover{
+    content: url(https://www.fablestreet.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0486%2F0634%2F7416%2Ffiles%2FSK075FSPK_2.jpg%3Fv%3D1730981237&w=1920&q=75);
+}
+.img_container4>img:hover{
+    content: url(https://www.fablestreet.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0486%2F0634%2F7416%2Ffiles%2FSK131PRRD_2.jpg%3Fv%3D1730981252&w=1920&q=75);
+}
+.img_container1,.img_container2,.img_container3,.img_container4{
+    position: relative;
+
+}
+.img_container1>.fa-heart,.img_container2>.fa-heart,.img_container3>.fa-heart,.img_container4>.fa-heart{
+    position: absolute;
+    left:350px;
+    
+}
+
+.viewall{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* padding: 3px 10px; */
+}
+.viewall>button{
+    height: 40px;
+}
+
+.arraival,.location{
+    width: 100%;
+}
+.arraival>img{
+    width: 100%;
+    padding-top: 20px;
+}
+.style{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.style>img{
+    width: 32.45%;
+}
+.location>img{
+    padding-top: 20px;
+    width: 100%;
+}
+.location+p{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.strike{
+    text-decoration: line-through;    
+}
+.img_popular1>img,.img_popular2>img,.img_popular3>img,.img_popular4>img{
+    width: 100%;
+}
+.img_popular1>img:hover{
+    content: url(https://www.fablestreet.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0486%2F0634%2F7416%2Ffiles%2FFSKNTP1232BLST_2.jpg%3Fv%3D1710149795&w=1920&q=75);
+}
+.img_popular2>img:hover{
+    content: url(https://www.fablestreet.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0486%2F0634%2F7416%2Ffiles%2FJK135GREY_2.jpg%3Fv%3D1726144454&w=1920&q=75);
+}
+.img_popular3>img:hover{
+    content: url(https://www.fablestreet.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0486%2F0634%2F7416%2Ffiles%2F41B3B87B-267B-491E-A0C3-636B9AADBBFB.jpg%3Fv%3D1699358416&w=1920&q=75);
+}
+.img_popular4>img:hover{
+    content: url(https://www.fablestreet.com/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0486%2F0634%2F7416%2Ffiles%2FTR100DSPK_2.jpg%3Fv%3D1718186902&w=1920&q=75);
+}
+.new{
+    position: relative;
+    bottom: 560px;
+}
+.popular{
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    /* justify-content: space-evenly; */
+}
+.img_popular1,.img_popular2,.img_popular3,.img_popular4{
+    position: relative;
+}
+.img_popular1>.fa-heart,.img_popular2>.fa-heart,.img_popular3>.fa-heart,.img_popular4>.fa-heart{
+    position: absolute;
+    left:350px;
+}
+.img_popular1>.star,.img_popular2>.star,.img_popular3>.star,.img_popular4>.star{
+    position: absolute;
+    left:300px;
+    bottom: 100px;
+}
+marquee{
+    display: flex;
+}
+marquee > p{
+    display: inline;
+    padding-right: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.bestfit{
+    padding-left: 200px;
+    display: flex;
+    align-content:center;
+    justify-content: center;
+}
+.bestfit1>img{
+    width: 15%;
+}
+.bestfit1{
+    width: 30%;
+}
+.bestfit+p{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.deepika{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 50px;
+    
+}
+.pallavi>img,.pallavi>p{
+    width: 100%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer{
+    display: flex;
+    margin-left: 15px;
+    justify-content: space-between;
+    /* margin-right: 30px; */
+}
+.fable{
+    width: 25%;
+    margin-right: 50px;
+}
