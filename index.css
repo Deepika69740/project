@@ -29,14 +29,10 @@ h2,h4,h3{
 .carousel-inner{
     height: 400px;
 }
-/* .carousel{
-    margin-top: 6rem;
-} */
 .carousel-item{
     height: 100%;
 }
 .carousel-item>img{
-    /* padding-top: 100px; */
     height: 100%;
 }
 .navbar{
@@ -46,7 +42,6 @@ h2,h4,h3{
     background-color:white;
     width: 100%;
     z-index: 1;
-    /* height: 20px; */
     display: flex;
     align-content: center;
     justify-content: space-around;
@@ -466,9 +461,6 @@ marquee > p{
     {
        width: 100%;
        display: block;
-       /* position: absolute;
-       left: 200px;
-       top: 35px; */
     }
     .na{
         width: 20vw;
@@ -500,113 +492,4 @@ marquee > p{
         height: 600px;
     }
 }
-/* .parent{
-    display: flex;
-    background-color: white;
-    justify-content: space-around;
-    align-items: center;
-}
-.child-2{
-    display: flex;
-    gap: 30px;
-}
 
-img{
-    width: 25%;
-}
-
-.input-checkbox-toggler{
-    display: none;
-}
-.ham-icon{
-    display: none;
-} */
-
-/* @media screen and (max-width:400vw){
-    *{
-        box-sizing: border-box;
-        overflow: visible;
-    }
-    .parent{
-
-        display: flex;
-    }
-    .child-2{
-        z-index: 1000;
-        position: absolute;
-        display: none;
-        gap: 10px;
-        align-items: center;
-        top: 70px;
-        left: 0px;
-        color: black;
-        width: 100%;
-        background-color:white;
-    }
-    .search{
-        display: none;
-    }
-    .ham-icon{
-        display: block;
-        
-    }
-  .input-checkbox-toggler:checked + .child-2{
-     display:flex;
-     flex-direction:column;
-  }   
-}
-
-@media screen and (min-width:401px) and (max-width:768px){
-    .parent{
-        display: flex;
-        position: relative;
-        padding: 10px;
-    }
-    .child-2{
-        position: absolute;
-        display: none;
-        gap: 10px;
-        align-items: center;
-        top: 70px;
-        left: 0px;
-        color:black;
-        width: 100%;
-        background-color:white;
-    }
-    .ham-icon{
-        display: block;
-    }
-    .ham-icon:hover{
-        cursor: pointer;
-    }
-  .input-checkbox-toggler:checked ~ .child-2{
-    
-     display:flex;
-     flex-direction: row;
-     gap: 60px;
-     background-color:white;
-  } 
-} */
-/* 
-@media screen and (min-width:769px) and (max-width:1024px) {
-    .parent{
-        display: flex;
-        flex-direction: row !important;
-        justify-content: space-between;
-        width: 100vw;
-    }
-    .child-2
-    {
-       width: 100%;
-       display: block;
-       /* position: absolute;
-       left: 200px;
-       top: 35px; */
-    /* }
-    .na{
-        width: 20vw;
-    }
-    .ham-icon{
-        display: none;
-    } 
-/* }
